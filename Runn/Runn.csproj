@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>pic 100 100.ico</ApplicationIcon>
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CRM_Bunny\CRM_Bunny.csproj" />
+    <ProjectReference Include="..\CRM_UI\CRM_UI.csproj" />
+  </ItemGroup>
+
+</Project>
